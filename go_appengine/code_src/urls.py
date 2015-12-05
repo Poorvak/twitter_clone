@@ -1,5 +1,6 @@
 import resources
+import re
 
-URL_LIST = [ ('/', MainPage), ('/status', resources.PostNewTweet),
-		('/status/(*)', resources.UserTweeting), ('/timeline', resources.Timeline),
+URL_LIST = [ ('/', resources.MainPage), ('/status', resources.PostNewTweet),
+		('/status/(.*)', resources.UserTweeting), ('/timeline', resources.Timeline),
 		('/following', resources.Following), ('/followers', resources.Followers)]

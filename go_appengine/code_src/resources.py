@@ -1,11 +1,32 @@
 import controllers
+import webapp2
 
-class PostNewTweet():
+class MainPage(webapp2.RequestHandler):
+    def get(self):
+        self.response.headers['Content-Type'] = 'text/plain'
+        self.response.write('Up and running')
 
-class UserTweeting():
+class PostNewTweet(webapp2.RequestHandler):
+	def get(self):
+	    self.response.headers['Content-Type'] = 'text/plain'
+	    self.response.write('Up and running')
 
-class Timeline():
+class UserTweeting(webapp2.RequestHandler):
+	def get(self, user_id):
+	    self.response.headers['Content-Type'] = 'text/plain'
+	    self.response.write('Up and running')
 
-class Following():
+class Timeline(webapp2.RequestHandler):
+	def get(self):
+	    self.response.headers['Content-Type'] = 'text/plain'
+	    self.response.write('Up and running')
 
-class Followers():
+class Following(webapp2.RequestHandler):
+	def get(self):
+	    self.response.headers['Content-Type'] = 'text/plain'
+	    self.response.write('Up and running')
+
+class Followers(webapp2.RequestHandler):
+	def get(self):
+	    self.response.headers['Content-Type'] = 'text/plain'
+	    self.response.write('Up and running')
