@@ -1,3 +1,4 @@
+import config
 import redis
 
 redis_user = redis.StrictRedis.from_url(config.REDIS_ENDPOINT, db=1)
