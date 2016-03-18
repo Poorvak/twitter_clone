@@ -1,0 +1,1 @@
+Search.setIndex({envversion:47,filenames:["all-about-me","index"],objects:{},objnames:{},objtypes:{},terms:{code:0,content:1,develop:0,index:1,kapoor:0,languag:0,modul:1,multipl:0,page:1,poorvak:0,python:0,search:1},titles:["All About Me","Welcome to twitter_clone&#8217;s documentation!"],titleterms:{about:0,all:0,document:1,indic:1,tabl:1,twitter_clon:1,welcom:1}})
